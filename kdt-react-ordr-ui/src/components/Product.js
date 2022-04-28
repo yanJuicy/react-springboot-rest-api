@@ -1,13 +1,13 @@
 import React from 'react';
 
 export function Product(props) {
-    const id = props.id;
+    const productId = props.productId;
     const prodcutName = props.prodcutName;
     const category = props.category;
     const price = props.price;
 
     const handleAddButtonClick = e => {
-        props.onAddClick(id);
+        props.onAddClick(productId);
     };
 
     return (

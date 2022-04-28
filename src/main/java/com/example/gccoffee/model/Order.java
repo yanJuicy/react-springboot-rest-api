@@ -1,7 +1,5 @@
 package com.example.gccoffee.model;
 
-import org.springframework.core.metrics.jfr.FlightRecorderApplicationStartup;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
